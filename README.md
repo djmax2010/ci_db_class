@@ -4,6 +4,7 @@ CI db select query doing like CakePHP's find function
 
 
 - 使用示例：
+
 ```
     $this->Channel = DB::builder('contents.channel');
     //简单查询 findByXxx, Xxx表示你要查询数据表中的某字段
